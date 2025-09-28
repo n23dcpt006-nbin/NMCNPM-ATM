@@ -5,9 +5,9 @@ Dự án này được phát triển trong môn **Nhập môn Công nghệ Phầ
 Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân tích yêu cầu, thiết kế, lập trình, kiểm thử và triển khai**.
 
 ## 👥 Thành viên nhóm
-- **Nguyễn Vũ Thanh Bình** – N23DCPT006 – Leader  
-- **Nguyễn Hạnh Nhân** – N23DCPT040 – Developer  
-- **Huỳnh Lưu Bảo Trân** – N23DCPT051 – Tester  
+- **Nguyễn Vũ Thanh Bình** – N23DCPT006
+- **Nguyễn Hạnh Nhân** – N23DCPT040 
+- **Huỳnh Lưu Bảo Trân** – N23DCPT051
 
 ## 🎯 Use Case chính
 - Quản lý người dùng  

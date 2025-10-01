@@ -1,26 +1,23 @@
-#  Software Engineering Project – Hệ thống ATM
+# Software Engineering Project – Hệ thống ATM
 
-##  Giới thiệu
+## Giới thiệu
 Dự án này được phát triển trong môn **Nhập môn Công nghệ Phần mềm**.  
 Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân tích yêu cầu, thiết kế, lập trình, kiểm thử và triển khai**.
 
-##  Thành viên nhóm
-- **Nguyễn Vũ Thanh Bình** – N23DCPT006
-- **Nguyễn Hạnh Nhân** – N23DCPT040 
-- **Huỳnh Lưu Bảo Trân** – N23DCPT051
-
-##  Use Case chính
+## Use Case chính
 - Quản lý người dùng  
 - Quản lý sản phẩm/dịch vụ  
 - Xử lý giao dịch  
 - Báo cáo & thống kê  
 
-##  Thiết kế hệ thống
-- **Use Case Diagram:** ![Use Case](./usecase_lab02.png)  
-- **Sequence Diagram:** ![Sequence](./sequence_lab03.png)  
+## Thiết kế hệ thống
+- **Use Case Diagram:** ![Use Case](./Lab02/usecase_lab02.png)  
+- **Sequence Diagram:** ![Sequence](./Lab03/sequence_lab03.png)
+- **Class Diagram:** ![Class](./Lab06/class_lab06.png)
+- **Package Diagram:** ![Package](./Lab06/package_lab06.png)
 - **ERD (Entity Relationship Diagram):** *(chèn hình nếu có)*  
 
-##  Công nghệ sử dụng
+## Công nghệ sử dụng
 - **Ngôn ngữ:** Python / Java / JavaScript (tùy chọn)  
 - **Cơ sở dữ liệu:** MySQL  
 - **Công cụ:** GitHub, Visual Studio Code  

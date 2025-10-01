@@ -12,7 +12,8 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân t
 
 ## Thiết kế hệ thống
 - **Use Case Diagram:** ![Use Case](./Lab02/usecase_lab02.png)  
-- **Sequence Diagram:** ![Sequence](./Lab03/sequence_lab03.png)  
+- **Sequence Diagram:** ![Sequence](./Lab03/sequence_lab03.png)
+- **Class Diagram:** ![Clas](./Lab06/Class Diagram Lab06.png)
 - **ERD (Entity Relationship Diagram):** *(chèn hình nếu có)*  
 
 ## Công nghệ sử dụng

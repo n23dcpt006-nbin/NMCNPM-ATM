@@ -1,5 +1,5 @@
-Xin chào, tôi tên là [Tên của bạn].
-Hiện tại tôi là sinh viên ngành Kỹ thuật Phần mềm tại [Tên Trường Đại học của bạn].
+Xin chào, tôi tên là Huỳnh Lưu Bảo Trân.
+Hiện tại tôi là sinh viên ngành Công nghệ đa phương tiện tại Học viện công nghệ bưu chính viễn thông.
 
 🔹 Sở thích:
 
@@ -21,4 +21,4 @@ Hiểu rõ kiến thức lập trình cơ bản
 Hoàn thành các bài tập và dự án đơn giản
 Tăng cường kỹ năng tự học và giải quyết vấn đề
 
-Cảm ơn bạn đã đọc phần giới thiệu của tôi.
+Cảm ơn thầy đã đọc phần giới thiệu của em.

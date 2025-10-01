@@ -1,0 +1,15 @@
+# Lab06 – Class & Package Diagram
+
+## Class Diagram
+- Các lớp chính: ATM, Card, Account, Transaction, Technician.
+- Quan hệ:
+  - ATM quản lý Card, Account, Transaction.
+  - Technician có thể maintain ATM.
+  - Account liên kết nhiều Transaction.
+
+## Package Diagram
+- **UI**: giao diện người dùng (form đăng nhập, rút tiền, gửi tiền).
+- **Controller**: điều khiển luồng nghiệp vụ.
+- **BankService**: xử lý logic nghiệp vụ (quản lý tài khoản, giao dịch).
+- **Hardware**: phần cứng ATM (Card Reader, Cash Dispenser, Receipt Printer).
+- Quan hệ: UI → Controller → BankService & Hardware.

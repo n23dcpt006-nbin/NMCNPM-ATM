@@ -1,0 +1,58 @@
+# Lab 02 – Phân tích yêu cầu & Thiết kế Use Case
+
+## 📌 Nội dung
+Mini Project: **ATM System**
+
+## Use Case Description
+
+### 1. Withdraw (Rút tiền)
+- **Mục tiêu**: Cho phép khách hàng rút tiền mặt từ tài khoản.  
+- **Tác nhân chính**: Customer (Khách hàng)  
+- **Tiền điều kiện**:  
+  - Khách hàng đã đăng nhập thành công vào hệ thống ATM.  
+  - Tài khoản còn số dư lớn hơn hoặc bằng số tiền cần rút.  
+- **Hậu điều kiện**:  
+  - Tiền được rút từ tài khoản thành công.  
+  - In biên lai nếu khách hàng yêu cầu.  
+- **Luồng sự kiện chính**:  
+  1. Khách hàng chọn chức năng **Withdraw**.  
+  2. Hệ thống yêu cầu nhập số tiền cần rút.  
+  3. Khách hàng nhập số tiền.  
+  4. Hệ thống kiểm tra số dư trong tài khoản với Bank System.  
+  5. Nếu hợp lệ, hệ thống nhả tiền và cập nhật số dư tài khoản.  
+  6. Hệ thống hỏi khách hàng có muốn in biên lai hay không.  
+  7. Giao dịch hoàn tất.  
+- **Luồng thay thế**:  
+  - Nếu số dư không đủ → Hệ thống hiển thị thông báo lỗi và yêu cầu nhập lại.  
+  - Nếu ATM không đủ tiền mặt → Hiển thị lỗi và hủy giao dịch.  
+
+---
+
+### 2. Transfer (Chuyển khoản)
+- **Mục tiêu**: Cho phép khách hàng chuyển tiền từ tài khoản của mình sang tài khoản khác.  
+- **Tác nhân chính**: Customer (Khách hàng)  
+- **Tiền điều kiện**:  
+  - Khách hàng đã đăng nhập thành công vào hệ thống ATM.  
+  - Tài khoản người nhận tồn tại trong hệ thống ngân hàng.  
+  - Số dư tài khoản đủ để thực hiện giao dịch.  
+- **Hậu điều kiện**:  
+  - Số tiền được trừ vào tài khoản nguồn.  
+  - Số tiền được cộng vào tài khoản đích.  
+  - In biên lai nếu khách hàng yêu cầu.  
+- **Luồng sự kiện chính**:  
+  1. Khách hàng chọn chức năng **Transfer**.  
+  2. Hệ thống yêu cầu nhập số tài khoản người nhận.  
+  3. Khách hàng nhập số tài khoản người nhận.  
+  4. Hệ thống kiểm tra tài khoản người nhận trong Bank System.  
+  5. Hệ thống yêu cầu nhập số tiền cần chuyển.  
+  6. Khách hàng nhập số tiền.  
+  7. Hệ thống kiểm tra số dư tài khoản nguồn.  
+  8. Nếu hợp lệ, hệ thống trừ tiền ở tài khoản nguồn và cộng tiền vào tài khoản đích.  
+  9. Hệ thống xác nhận giao dịch thành công và hỏi có in biên lai hay không.  
+  10. Giao dịch hoàn tất.  
+- **Luồng thay thế**:  
+  - Nếu số tài khoản người nhận không tồn tại → Hiển thị lỗi và yêu cầu nhập lại.  
+  - Nếu số dư không đủ → Hiển thị thông báo lỗi và yêu cầu nhập lại.  
+  - Nếu có lỗi kết nối đến Bank System → Thông báo lỗi và hủy giao dịch.  
+
+---

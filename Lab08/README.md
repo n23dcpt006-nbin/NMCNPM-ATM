@@ -21,7 +21,7 @@
 - **Case 3**: Input trống → `"Please enter full your Username and Password!"`.  
 
 ✅ Kết quả: cả 3 test đều **PASSED**.  
-![report_selenium](./Lab08/integration_test.png)
+![Integration Test](.Lab08/integration_test.png)
 
 ---
 

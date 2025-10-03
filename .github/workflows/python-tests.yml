@@ -26,5 +26,5 @@ jobs:
 
     - name: Run unit tests (pytest)
       run: |
-        pytest lab0g/test_withdraw.py
+        pytest lab08/test_withdraw.py
 

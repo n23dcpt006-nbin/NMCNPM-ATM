@@ -1,17 +1,34 @@
 # atm.py
-class ATM:
-    def __init__(self, pin, balance):
-        self.correct_pin = pin
-        self.balance = balance
+"""
+Simple ATM module for lab.
+Functions:
+- verify_pin(accounts, acc_id, pin) -> bool
+- withdraw(accounts, acc_id, amount) -> bool or raises ValueError
+accounts is a dict: { acc_id: {"pin": "1234", "balance": 1000}, ... }
+"""
+from typing import Dict
 
-    def verify_pin(self, input_pin):
-        return input_pin == self.correct_pin
+def verify_pin(accounts: Dict, acc_id: str, pin: str) -> bool:
+    """Return True if acc_id exists and pin matches, else False."""
+    if acc_id not in accounts:
+        return False
+    return accounts[acc_id].get("pin") == pin
 
-    def withdraw(self, amount):
-        if amount <= 0:
-            return "Invalid amount"
-        if amount > self.balance:
-            return "Insufficient funds"
-        self.balance -= amount
-        return "Withdraw successful"
-
+def withdraw(accounts: Dict, acc_id: str, amount: float) -> bool:
+    """
+    Try to withdraw amount from account.
+    - If account not found -> raise ValueError
+    - If amount invalid (<=0) -> raise ValueError
+    - If enough balance -> subtract and return True
+    - If not enough -> return False (no change)
+    """
+    if acc_id not in accounts:
+        raise ValueError("Account not found")
+    if amount <= 0:
+        raise ValueError("Invalid withdraw amount")
+    balance = accounts[acc_id].get("balance", 0)
+    if balance >= amount:
+        accounts[acc_id]["balance"] = balance - amount
+        return True
+    else:
+        return False

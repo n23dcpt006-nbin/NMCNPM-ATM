@@ -11,7 +11,7 @@
 - Hàm `withdraw`: kiểm tra rút tiền thành công/thất bại.  
 
 ✅ Kết quả: tất cả test case đều **PASSED**.  
-![Use Case](./Lab02/usecase_lab02.png)
+![UnitTest](./Lab08/unit_test.png)
 
 ---
 

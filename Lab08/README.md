@@ -11,7 +11,7 @@
 - Hàm `withdraw`: kiểm tra rút tiền thành công/thất bại.  
 
 ✅ Kết quả: tất cả test case đều **PASSED**.  
-![report_pytest](./report_pytest.png)
+![report_pytest](./Lab08/unit_test.png)
 
 ---
 
@@ -21,7 +21,7 @@
 - **Case 3**: Input trống → `"Please enter full your Username and Password!"`.  
 
 ✅ Kết quả: cả 3 test đều **PASSED**.  
-![report_selenium](./report_selenium.png)
+![report_selenium](./Lab08/integration_test.png)
 
 ---
 

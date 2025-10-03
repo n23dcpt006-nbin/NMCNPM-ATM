@@ -32,3 +32,17 @@ def withdraw(accounts: Dict, acc_id: str, amount: float) -> bool:
         return True
     else:
         return False
+if __name__ == "__main__":
+    accounts = {
+        "acc1": {"pin": "1234", "balance": 1000},
+        "acc2": {"pin": "0000", "balance": 50},
+    }
+
+    print(verify_pin(accounts, "acc1", "1234"))   # True
+    print(verify_pin(accounts, "acc1", "1111"))   # False
+
+    print(withdraw(accounts, "acc1", 200))        # True
+    print(accounts["acc1"]["balance"])            # 800
+
+    print(withdraw(accounts, "acc2", 100))        # False
+    print(accounts["acc2"]["balance"])            # 50

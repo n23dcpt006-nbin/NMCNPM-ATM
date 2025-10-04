@@ -69,11 +69,11 @@ Kiểm thử	Selenium, UnitTest
 Quản lý dự án	Jira, GitHub
 Báo cáo	Markdown, PowerPoint
 
-🧾 Demo và Kết quả cuối kỳ
+ Demo và Kết quả cuối kỳ
 🔹 Chạy Form Login → hiển thị “Login successful!”
 🔹 Thực hiện Withdraw → cập nhật số dư & lưu lịch sử
 🔹 Test thành công các case chính (login, withdraw, balance)
 🔹 Jira Board hoàn thiện đầy đủ Sprint và Backlog
 
-📎 Liên kết
+ Liên kết
 GitHub Repository: https://github.com/n23dcpt006-nbin/NMCNPM-ATM

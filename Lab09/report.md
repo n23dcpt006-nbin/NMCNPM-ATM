@@ -20,7 +20,7 @@ Các công việc trong sprint được quản lý qua board với 3 trạng th�
 **To Do**, **In Progress**, **Done**.  
 Ảnh bên dưới minh họa tiến trình của nhóm:
 
-![Board](/Lab09/Sprint Board.png)
+![Board](/Lab09/Sprintboard.png)
 
 ---
 
@@ -36,7 +36,3 @@ Biểu đồ thể hiện lượng công việc còn lại theo thời gian:
 - Đồ thị Burndown giảm dần khi US1 được chuyển sang Done.  
 - Dữ liệu thể hiện nhóm có tiến độ ổn định trong Sprint đầu tiên.
 
----
-
-**Người thực hiện:** Nguyễn Văn A  
-**Ngày nộp:** 04/10/2025

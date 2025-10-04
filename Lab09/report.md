@@ -20,7 +20,7 @@ Các công việc trong sprint được quản lý qua board với 3 trạng th�
 **To Do**, **In Progress**, **Done**.  
 Ảnh bên dưới minh họa tiến trình của nhóm:
 
-![Board](board.png)
+![Board](/Lab09/Sprint Board.png)
 
 ---
 

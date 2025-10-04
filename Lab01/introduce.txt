@@ -1,23 +1,30 @@
-Xin chào, chúng tôi là nhóm sinh viên ngành Công nghệ Đa phương tiện.
+=========================================
+GIỚI THIỆU DỰ ÁN: NMCNPM - ATM SYSTEM
+=========================================
 
-🔹 Thành viên:
-- Nguyễn Vũ Thanh Bình - N23DCPT006
-- Nguyễn Hạnh Nhân - N23DCPT040
-- Huỳnh Lưu Bảo Trân - N23DCPT051
+📌 Môn học: Nhập môn Công nghệ Phần mềm
+📌 Nhóm: 6
 
-🔹 Sở thích:
-- Ứng dụng đa phương tiện và hệ thống tương tác
-- Phát triển ứng dụng web và di động
-- Trí tuệ nhân tạo và các công nghệ sáng tạo
+-----------------------------------------
+1. Mục tiêu
+- Thực hành các khái niệm cơ bản trong quy trình phát triển phần mềm.
+- Ứng dụng UML để phân tích, thiết kế hệ thống.
+- Thực hành viết code, kiểm thử (Unit Test & Integration Test).
+- Quản lý mã nguồn bằng GitHub.
 
-🔹 Kỹ năng:
-- Ngôn ngữ lập trình: Python, Java, JavaScript, SQL
-- Công cụ: Git, Visual Studio Code, Jira, MySQL
-- Quy trình phát triển: Agile - Scrum, Waterfall
+-----------------------------------------
+2. Nội dung chính
+- Lab 01 → 03: Phân tích yêu cầu, Use Case, Sequence Diagram.
+- Lab 04 → 07: Xây dựng giao diện, module ATM, thực hành coding.
+- Lab 08: Viết Unit Test & Integration Test với Python (pytest, Selenium).
 
-🔹 Mục tiêu:
-- Trở thành những kỹ sư Công nghệ Đa phương tiện chuyên nghiệp
-- Tham gia và đóng góp vào các dự án phần mềm, đa phương tiện thực tế
-- Không ngừng học hỏi về công nghệ mới và xu hướng sáng tạo trong ngành CNTT và truyền thông
+-----------------------------------------
+3. Công nghệ sử dụng
+- Python 3
+- HTML, CSS, JavaScript
+- Pytest (Unit Test)
+- Selenium WebDriver (Integration Test)
+- GitHub (quản lý mã nguồn)
 
-Cảm ơn vì đã đọc phần giới thiệu của chúng tôi.
+-----------------------------------------
+📌 Dự án hoàn thành phục vụ mục tiêu học tập.

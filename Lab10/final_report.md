@@ -111,4 +111,4 @@ File SQL mẫu: [`atm_demo_dtb.sql`](./Lab07/atm_demo_dtb.sql)
 - Áp dụng **CI/CD** (GitHub Actions) để tự động kiểm thử & triển khai.
 
 ## Thông tin nộp bài
-- **Link GitHub:**  
+- **Link GitHub:**  https://github.com/n23dcpt006-nbin/NMCNPM-ATM/tree/main

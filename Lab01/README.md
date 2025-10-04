@@ -1,12 +1,5 @@
 # 🏧 ATM Mini Project – Nhập Môn Công Nghệ Phần Mềm (PTIT HCM)
 
-### 👨‍💻 Sinh viên thực hiện:
-**Nguyễn Vũ Thanh Bình**  
-MSSV: *(nếu có)*  
-Lớp: Nhập môn Công nghệ phần mềm – PTIT HCM  
-
----
-
 ## 📘 Giới thiệu dự án
 Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự động (ATM) – được phát triển xuyên suốt qua các **Lab từ 01 → 10**, áp dụng đầy đủ các bước trong quy trình phát triển phần mềm.
 
@@ -14,8 +7,6 @@ Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự đ�
 - Xây dựng ứng dụng ATM cơ bản (Login, Withdraw, Check Balance).  
 - Thiết kế UML, CSDL, giao diện và kiểm thử tự động.  
 - Quản lý tiến độ theo mô hình Scrum và báo cáo trên Jira.  
-
----
 
 ## 📁 Cấu trúc thư mục
 ├── Lab01/ # Giới thiệu & setup ban đầu
@@ -28,8 +19,6 @@ Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự đ�
 ├── Lab08/ # Unit Test + Selenium Test
 ├── Lab09/ # Jira Sprint Report
 └── Lab10-final-demo/ # Báo cáo tổng hợp & demo cuối kỳ
-
----
 
 ## 🧩 Tổng hợp nội dung từng Lab
 
@@ -46,8 +35,6 @@ Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự đ�
 | **Lab09** | Báo cáo Jira (Scrum, Sprint) | [Lab09/report.md](./Lab09/report.md) |
 | **Lab10** | Báo cáo tổng hợp + Demo cuối kỳ | [Lab10-final-demo/final_report.md](./Lab10-final-demo/final_report.md) |
 
----
-
 ## ⚙️ Chức năng chính của ATM Mini Project
 
 - 🔐 **Đăng nhập (Login):** xác thực người dùng từ DB  
@@ -57,8 +44,6 @@ Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự đ�
   - Unit Test: kiểm tra logic rút tiền  
   - Selenium: mô phỏng đăng nhập trên trình duyệt  
 - 📊 **Jira Board:** quản lý nhiệm vụ theo Scrum  
-
----
 
 ## 💻 Hướng dẫn chạy project
 

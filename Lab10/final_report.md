@@ -22,20 +22,20 @@ Xây dựng một ứng dụng mô phỏng hệ thống máy rút tiền tự đ
 ## 2️. Mô hình UML
 
 ### Use Case Diagram (Lab02)
-![Use Case Diagram](./Lab02/usecase_lab02.png)
+![Use Case Diagram](/Lab02/usecase_lab02.png)
 
-[Chi tiết mô tả Use Case](./Lab02/Use%20Case%20Description)
+[Chi tiết mô tả Use Case](/Lab02/Use%20Case%20Description)
 
 ### Sequence Diagram (Lab03)
-![Sequence Diagram](./Lab03/sequence_lab03.png)
+![Sequence Diagram](/Lab03/sequence_lab03.png)
 
-[Chi tiết mô tả Sequence](./Lab03/Sequence%20Description)
+[Chi tiết mô tả Sequence](/Lab03/Sequence%20Description)
 
 ### Class Diagram (Lab06)
-![Class Diagram](./Lab06/class_lab06.png)
-![Package Diagram](./Lab06/package_lab06.png)
+![Class Diagram](/Lab06/class_lab06.png)
+![Package Diagram](/Lab06/package_lab06.png)
 
-[Ghi chú chi tiết](./Lab06/Notes)
+[Ghi chú chi tiết](/Lab06/Notes)
 
 ## 3️. Cơ sở dữ liệu (Database)
 
@@ -48,18 +48,18 @@ Cấu trúc cơ sở dữ liệu được thiết kế để quản lý người
 | transactions | Ghi nhận lịch sử rút/gửi tiền |
 | logs | Nhật ký đăng nhập |
 
-File SQL mẫu: [`atm_demo_dtb.sql`](./Lab07/atm_demo_dtb.sql)
+File SQL mẫu: [`atm_demo_dtb.sql`](/Lab07/atm_demo_dtb.sql)
 
 ## 4️. Giao diện và mã nguồn chính
 
 ### Form Login (Lab04)
-- File: [`index.html`](./Lab04/index.html)
+- File: [`index.html`](/Lab04/index.html)
 - Giao diện đăng nhập kết nối với cơ sở dữ liệu để xác thực người dùng.  
 - **Frontend:** HTML + CSS + JavaScript.  
 - **Mô phỏng chức năng:** Hiển thị thông báo “Login successful” hoặc “Sai thông tin”.
 
 ### Withdraw Module (Lab07)
-- File chính: [`withdraw.py`](./Lab07/withdraw.py)  
+- File chính: [`withdraw.py`](/Lab07/withdraw.py)  
 - Kết nối đến cơ sở dữ liệu để trừ số dư, ghi nhận lịch sử rút tiền.  
 - Có thêm các module phụ:
   - `check_balance.py`
@@ -72,9 +72,9 @@ File SQL mẫu: [`atm_demo_dtb.sql`](./Lab07/atm_demo_dtb.sql)
 
 ### Test (Lab08)
 - Unit test & integration test:  
-  - [`unit_test.png`](./Lab08/unit_test.png)
-  - [`integration_test.png`](./Lab08/integration_test.png)
-- Selenium test: [`selenium_test_login.py`](./Lab08/selenium_test_login.py)
+  - [`unit_test.png`](/Lab08/unit_test.png)
+  - [`integration_test.png`](/Lab08/integration_test.png)
+- Selenium test: [`selenium_test_login.py`](/Lab08/selenium_test_login.py)
 - Kết quả:
   - ✅ Login thành công khi nhập đúng thông tin
   - ✅ Thông báo lỗi khi sai username/password
@@ -83,12 +83,12 @@ File SQL mẫu: [`atm_demo_dtb.sql`](./Lab07/atm_demo_dtb.sql)
 ### 📊 Jira Report (Lab09)
 | Hạng mục | Hình ảnh minh hoạ |
 |-----------|------------------|
-| Backlog | ![Backlog](./Lab09/Backlog.png) |
-| Sprint board | ![Sprint Board](./Lab09/Sprintboard.png) |
-| Burndown chart | ![Burndown](./Lab09/Burndown.png) |
-| Tasks chi tiết | ![Tasks](./Lab09/Phân%20rã%20thành%20Tasks/US1%20Rut%20tien.png) |
+| Backlog | ![Backlog](/Lab09/Backlog.png) |
+| Sprint board | ![Sprint Board](/Lab09/Sprintboard.png) |
+| Burndown chart | ![Burndown](/Lab09/Burndown.png) |
+| Tasks chi tiết | ![Tasks](/Lab09/Phân%20rã%20thành%20Tasks/US1%20Rut%20tien.png) |
 
-[Báo cáo Jira chi tiết](./Lab09/report.md)
+[Báo cáo Jira chi tiết](/Lab09/report.md)
 
 ## 6️. Demo và Kết quả chạy
 
@@ -111,4 +111,4 @@ File SQL mẫu: [`atm_demo_dtb.sql`](./Lab07/atm_demo_dtb.sql)
 - Áp dụng **CI/CD** (GitHub Actions) để tự động kiểm thử & triển khai.
 
 ## Thông tin nộp bài
-- **Link GitHub:**  https://github.com/n23dcpt006-nbin/NMCNPM-ATM/tree/main
+- **Link GitHub:** https://github.com/n23dcpt006-nbin/NMCNPM-ATM

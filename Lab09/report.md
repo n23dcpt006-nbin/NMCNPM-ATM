@@ -11,7 +11,7 @@
 ## 2. Backlog
 Dưới đây là ảnh chụp Backlog thể hiện đầy đủ các User Stories:
 
-![Backlog](backlog.png)
+Lab09/Backlog có Epic + User Stories..png
 
 ---
 

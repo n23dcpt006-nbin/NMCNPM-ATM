@@ -1,0 +1,6 @@
+[
+  "test_withdraw.py::test_verify_pin_correct",
+  "test_withdraw.py::test_verify_pin_incorrect",
+  "test_withdraw.py::test_withdraw_insufficient",
+  "test_withdraw.py::test_withdraw_success"
+]

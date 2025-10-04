@@ -27,7 +27,7 @@ Các công việc trong sprint được quản lý qua board với 3 trạng th�
 ## 4. Sprint Burndown Chart
 Biểu đồ thể hiện lượng công việc còn lại theo thời gian:
 
-![Burndown Chart](burndown.png)
+![Burndown Chart](/Lab09/Burndown.png)
 
 ---
 

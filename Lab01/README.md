@@ -9,16 +9,16 @@ Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự đ�
 - Quản lý tiến độ theo mô hình Scrum và báo cáo trên Jira.  
 
 ##  Cấu trúc thư mục
-├── Lab01/ # Giới thiệu & setup ban đầu
-├── Lab02/ # Use Case Diagram
-├── Lab03/ # Sequence Diagram
-├── Lab04/ # Form Login (HTML/CSS/JS)
-├── Lab05/ # ERD + Database Design
-├── Lab06/ # Class & Package Diagram
-├── Lab07/ # Withdraw Module + Database
-├── Lab08/ # Unit Test + Selenium Test
-├── Lab09/ # Jira Sprint Report
-└── Lab10-final-demo/ # Báo cáo tổng hợp & demo cuối kỳ
+├── **Lab01**/ Giới thiệu & setup ban đầu  
+├── **Lab02**/ Use Case Diagram  
+├── **Lab03**/ Sequence Diagram  
+├── **Lab04**/ Form Login (HTML/CSS/JS)  
+├── **Lab05**/ ERD + Database Design  
+├── **Lab06**/ Class & Package Diagram  
+├── **Lab07**/ Withdraw Module + Database  
+├── **Lab08**/ Unit Test + Selenium Test  
+├── **Lab09**/ Jira Sprint Report  
+└── **Lab10**/ Báo cáo tổng hợp & demo cuối kỳ  
 
 ##  Tổng hợp nội dung từng Lab
 

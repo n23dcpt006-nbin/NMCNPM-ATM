@@ -1,4 +1,4 @@
-#  ATM Mini Project – Nhập Môn Công Nghệ Phần Mềm (PTIT HCM)
+#  LAB-01: ATM Mini Project – Nhập Môn Công Nghệ Phần Mềm 
 
 ## Giới thiệu dự án
 Dự án **ATM Mini Project** mô phỏng hệ thống máy rút tiền tự động (ATM) – được phát triển xuyên suốt qua các **Lab từ 01 → 10**, áp dụng đầy đủ các bước trong quy trình phát triển phần mềm.
